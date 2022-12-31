@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/khao-piyo/static/css/main.7ee3d56d.css",
-    "main.js": "/khao-piyo/static/js/main.6b1b04bf.js",
+    "main.css": "/khao-piyo/static/css/main.39b20e2c.css",
+    "main.js": "/khao-piyo/static/js/main.b0f134de.js",
     "static/media/home-img-1.png": "/khao-piyo/static/media/home-img-1.0c628cd6df31eafbccc0.png",
     "static/media/pizza-2.png": "/khao-piyo/static/media/pizza-2.dd8d52e1f000e5354cc6.png",
     "static/media/pizza-1.png": "/khao-piyo/static/media/pizza-1.ddbdee0e7dba4c2681a8.png",
@@ -43,11 +43,11 @@
     "static/media/cat-3.png": "/khao-piyo/static/media/cat-3.3fa582f7a7c1e12dfe91.png",
     "static/media/step-1.png": "/khao-piyo/static/media/step-1.6b309a686860e095dad1.png",
     "index.html": "/khao-piyo/index.html",
-    "main.7ee3d56d.css.map": "/khao-piyo/static/css/main.7ee3d56d.css.map",
-    "main.6b1b04bf.js.map": "/khao-piyo/static/js/main.6b1b04bf.js.map"
+    "main.39b20e2c.css.map": "/khao-piyo/static/css/main.39b20e2c.css.map",
+    "main.b0f134de.js.map": "/khao-piyo/static/js/main.b0f134de.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ee3d56d.css",
-    "static/js/main.6b1b04bf.js"
+    "static/css/main.39b20e2c.css",
+    "static/js/main.b0f134de.js"
   ]
 }
