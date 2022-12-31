@@ -19,7 +19,7 @@ function Pizza() {
         </p>
       </div>
 
-      <div className="product-detail">
+      <section className="product-detail">
   <div className="row">
     <div className="image">
       <img src={pro1} alt="" />
@@ -58,7 +58,7 @@ function Pizza() {
       </table>
     </div>
   </div>
-</div>
+</section>
     </>
   );
 }
