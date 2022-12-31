@@ -1,0 +1,113 @@
+
+
+.reviews {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.carousel {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+.testimonial {
+
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  border-radius: .5rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+  border: var(--border);
+  
+
+}
+
+.testimonial > img {
+
+
+  border-radius: 2rem;
+  width: 6rem;
+
+}
+.testimonial>span:nth-of-type(1) {
+
+align-items: center;
+font-size: 0.8rem;
+letter-spacing: 1px;
+margin-top: 2rem;
+
+}
+
+.testimonial>hr {
+
+height: 1px;
+width: 80%;
+background: rgb(198, 198, 198);
+border: none;
+
+}
+
+.testimonial>span:nth-of-type(2)
+{
+
+  font-weight: 500 ;
+
+
+}
+
+
+
+
+
+
+/* 
+.reviews .slide {
+  margin-bottom: 4rem;
+  border: var(--border);
+  text-align: center;
+  padding: 2rem;
+}
+
+.reviews .slide img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviews .slide p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-color);
+}
+
+.reviews .slide .stars {
+  margin-top: 0.5rem;
+}
+
+.reviews .slide .stars i {
+  font-size: 1.7rem;
+  color: var(--yellow);
+}
+
+.reviews .slide h3 {
+  font-size: 2rem;
+  color: var(--black);
+  margin-top: 1.5rem;
+}
+ */

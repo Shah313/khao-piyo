@@ -1,0 +1,47 @@
+.footer > .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap:1.5rem;
+    align-items: flex-start;
+
+ }
+ 
+  .box{
+    text-align: center;
+    padding:2rem;
+    border:var(--border);
+    border-radius: 1rem;
+ }
+ 
+ .box > img{
+    height: 10rem;
+    margin-bottom: 1rem;
+ }
+ 
+ .box > h3{
+    margin:1rem 0;
+    font-size: 2rem;
+    color:var(--black);
+ }
+ 
+ .box > a,
+ .box > p{
+    line-height: 2;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    display: block;
+ }
+ 
+ .footer > .credit{
+    background-color: var(--black);
+    text-align: center;
+    padding:3rem 2rem;
+    font-size: 2rem;
+    color:var(--white);
+    /* padding-bottom: 10rem; */
+ }
+ 
+ .credit > span{
+    color:var(--yellow);
+ }
+ 

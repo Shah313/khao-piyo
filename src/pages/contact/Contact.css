@@ -1,0 +1,78 @@
+.heading{
+    background-color: var(--black);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;;
+    flex-flow: column;
+    min-height: 20rem;
+ }
+ 
+ h3{
+    font-size: 4rem;
+    color:var(--white);
+    text-transform: capitalize;
+ }
+ 
+ p > .link{
+    font-size: 2rem;
+    color:var(--yellow);
+ }
+ 
+ p > span{
+    font-size: 2rem;
+    color:var(--light-color);
+ }
+ 
+ p > .link:hover{
+    color:var(--white);
+ }
+
+
+ 
+.contact > .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+ }
+ 
+  .row > .image{
+    flex:1 1 40rem;
+ }
+ 
+  .image > img{
+    width: 100%;
+   
+ }
+ 
+ .row > form{
+    border:var(--border);
+    flex:1 1 40rem;
+    padding:2rem;
+    text-align: center;
+    border-radius: 1rem;
+ }
+ 
+  form > h3{
+    font-size: 2.5rem;
+    color:var(--black);
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+ }
+ 
+  form  > .box{
+    width: 100%;
+    border:var(--border);
+    padding:1.4rem;
+    font-size: 1.8rem;
+    color:var(--black);
+    margin:.5rem 0;
+ }
+ 
+ form > textarea{
+    height: 15rem;
+    resize: none;
+ }
+

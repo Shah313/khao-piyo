@@ -1,0 +1,131 @@
+.heading{
+    background-color: var(--black);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;;
+    flex-flow: column;
+    min-height: 20rem;
+ }
+ 
+ h3{
+    font-size: 4rem;
+    color:var(--white);
+    text-transform: capitalize;
+ }
+ 
+ p > .link{
+    font-size: 2rem;
+    color:var(--yellow);
+ }
+ 
+ p > span{
+    font-size: 2rem;
+    color:var(--light-color);
+ }
+ 
+ p > .link:hover{
+    color:var(--white);
+ }
+
+ .products > .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    gap:1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+ }
+ 
+ .box{
+    position: relative;
+    border:var(--border);
+    padding:2rem;
+    overflow: hidden;
+ }
+ 
+  .box > .fa-eye {
+    position: absolute;
+    top:1rem;
+    display: block;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.3rem;
+    font-size: 2rem;
+    border:var(--border);
+    background-color: var(--white);
+    cursor: pointer;
+    color:var(--black);
+    text-align: center;
+ }
+ 
+  .box > .fa-eye{
+    left: -10rem;
+ }
+ 
+ 
+ 
+  .box:hover > .fa-eye{
+    left: 1rem;
+ }
+ 
+ 
+ 
+ .box > .fa-eye:hover {
+    background-color: var(--black);
+    color:var(--white);
+ }
+ 
+ .box > img{
+    height: 25rem;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 1rem;
+ }
+ 
+ .box > .cat{
+    font-size: 1.7rem;
+   
+    color:var(--light-color);
+ }
+ 
+ .cat > .link {
+ color:var(--light-color);
+ 
+ }
+ 
+ .cat > .link:hover{
+    color: var(--yellow);
+ }
+ 
+ .box > .name{
+    font-size: 2rem;
+    margin:1rem 0;
+    color:var(--black);
+ }
+ 
+ .box > .flex{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+ }
+ 
+  .flex > .price{
+    margin-right: auto;
+    font-size: 2.5rem;
+    color:var(--black);
+ }
+ 
+ .price > span{
+    font-size: 1.8rem;
+    color:var(--light-color);
+ }
+ 
+ .flex > .qty{
+    padding:1rem;
+    font-size: 1.8rem;
+    border:var(--border);
+    color:var(--black);
+    width: 7rem;
+ }
+

@@ -1,0 +1,34 @@
+
+.user-details .user{
+    border:var(--border);
+    padding:2rem;
+    max-width: 40rem;
+    margin:0 auto;
+ }
+ 
+ .user-details .user img{
+    width: 100%;
+    height: 15rem;
+    object-fit: contain;
+    margin-bottom: 2rem;
+ }
+ 
+ .user-details .user p{
+    line-height: 1.5;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+ }
+ 
+ .user-details .user p span{
+    color:var(--black);
+ }
+ 
+ .user-details .user i{
+    margin-right: .7rem;
+    color:var(--light-color);
+ }
+ 
+ .user-details .user p.address{
+    margin-top: 2rem;
+ }
+ 

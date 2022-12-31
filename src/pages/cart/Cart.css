@@ -1,0 +1,37 @@
+
+.products .cart-total{
+    border:var(--border);
+    padding:1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+ }
+ 
+ .products .cart-total p{
+    margin-right: auto;
+    font-size: 2rem;
+    color:var(--light-color);
+ }
+ 
+ .products .cart-total p span{
+    color:var(--black);
+ }
+ 
+ .products .cart-total .btn{
+    margin-top: 0;
+ }
+ 
+
+ .sub-total{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color:var(--light-color);
+ }
+ 
+  .sub-total span{
+    color:var(--black);
+ }
+
